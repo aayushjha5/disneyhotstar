@@ -1,0 +1,96 @@
+.navbar {
+    color: #F8F0E3;
+    font-size: 16px;
+
+    .container {
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+
+
+        .left {
+            display: flex;
+            align-items: center;
+
+            .profile {
+                .options {
+                    display: none;
+                    background-color: var(--main-color);
+                    border-radius: 5px;
+
+
+                    span {
+                        padding: 10px 20px;
+                        cursor: pointer;
+                        font-size: 14px;
+                        background-color: #192133;
+                    }
+                }
+
+                &:hover {
+                    .options {
+                        display: flex;
+                        flex-direction: column;
+                        position: absolute;
+                    }
+                }
+            }
+
+            img {
+                height: 60px;
+                margin: 0px 40px 10px 10px;
+                cursor: pointer;
+            }
+
+            span {
+                margin-right: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+
+            .search {
+                width: 17%;
+                position: absolute;
+                left: 650px;
+                right: 0px;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                border-radius: 3px;
+                padding: 5px;
+                border-bottom: 1px solid #ccc;
+
+                input {
+                    border: none;
+                    background-color: transparent;
+                    color: #F8F0E3;
+                    outline: none;
+                    width: 100%;
+                    font-size: 16px;
+                }
+            }
+
+            button {
+                padding: 3px 10px;
+                color: #F8F0E3;
+                background-color: #1F80E0;
+                border-radius: 3px;
+                font-weight: 500;
+                border: 1px solid #1F80E0;
+                cursor: pointer;
+                margin: 0px 15px;
+            }
+
+            span {
+                cursor: pointer;
+            }
+        }
+
+    }
+}

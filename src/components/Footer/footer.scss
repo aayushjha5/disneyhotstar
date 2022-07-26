@@ -1,0 +1,59 @@
+.footer{
+    color: #adafb4;
+    width: 100%;
+
+    .wrapper{
+        display: flex;
+        padding: 0px 10px;
+        margin: 0px 40px;
+
+        .left{
+            flex: 2;
+
+            .links{
+                font-size: 14px;
+                margin-bottom: 10px;
+                
+
+                span{
+                    margin-right: 20px;
+                    cursor: pointer;
+                }
+            }
+
+            .disclamer{
+                font-size: 12px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .right{
+            flex: 1;
+            display: flex;
+
+            .socials{
+                flex: 1;
+                
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                    object-fit: cover;
+                    margin-right: 5px;
+                }
+            }
+
+            .store{
+                flex: 1;
+                display: flex;
+
+                img{
+                    width: 135px;
+                    height: 40px;
+                    margin-right: 5px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
