@@ -25,12 +25,12 @@ const Footer = () => {
                 </div>
                 <div className="right">
                     <div className="socials">
-                        <img src={Facebook} />
-                        <img src={Twitter} />
+                        <img src={Facebook} alt="facebook" />
+                        <img src={Twitter} alt="twitter"/>
                     </div>
                     <div className="store">
-                        <img src={GooglePlay} />
-                        <img src={AppStore} />
+                        <img src={GooglePlay} alt="Google Play"/>
+                        <img src={AppStore} alt="App Store"/>
 
                     </div>
                 </div>
